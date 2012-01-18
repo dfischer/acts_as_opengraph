@@ -13,7 +13,7 @@ module ActiveRecord
           
           extend ClassMethods
           
-          opengraph_atts = %w(title type image url description site_name latitude longitude street_address locality region postal_code country_name email phone_number fax_number)
+          opengraph_atts = %w(app_id admins title type image url description site_name latitude longitude street_address locality region postal_code country_name email phone_number fax_number)
           
           options[:columns] ||= {}
           options[:values] ||= {}
